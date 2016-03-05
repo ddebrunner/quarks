@@ -4,9 +4,14 @@
 */
 package quarks.providers.iot;
 
+import quarks.connectors.iot.IotDevice;
 import quarks.providers.direct.DirectProvider;
 
 /**
  */
 public class IotProvider extends DirectProvider {
+    
+    public IotProvider(IotDevice iotDevice) {
+        
+    }
 }
