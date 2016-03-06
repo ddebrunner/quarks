@@ -9,6 +9,7 @@
 
   <path id="compile.classpath">
     <pathelement location="${quarks.lib}/quarks.providers.direct.jar" />
+    <pathelement location="${quarks.connectors}/iot/lib/quarks.connectors.iot.jar" />
   </path>
 
   <path id="test.compile.classpath">
